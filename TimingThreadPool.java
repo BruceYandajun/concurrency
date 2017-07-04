@@ -48,6 +48,9 @@ public class TimingThreadPool extends ThreadPoolExecutor {
 			super.afterExecute(r, t);
 		}
 	}
+	/**
+	 * stop thread
+	 */
 
 	protected void terminated() {
 		try {
