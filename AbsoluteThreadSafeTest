@@ -3,7 +3,7 @@ package com.letv.shop.jvm.concurrency;
 import java.util.Vector;
 
 /**
- * Vector名义上是绝对的线程安全，实际上也不安全(因为i的原因)
+ * Vector名义上是绝对的线程安全，实际上也不安全(因为i的原因);没有绝对的线程安全
  * 
  * @author yandajun
  *
